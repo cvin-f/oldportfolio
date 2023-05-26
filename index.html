@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise: Portfolio</title>
+
+    <style>
+        body {
+            background-image: url(https://cdn.wallpapersafari.com/98/64/9xl467.jpg);
+            background-size: cover;
+            font-family: DejaVu Sans Mono, monospace;
+            /* background-color: rgb(70, 88, 97); */
+            color: white;
+            
+        }
+        h1 {
+            /* font-size: 50px; */
+            color: rgb(67, 73, 95);
+        }
+        .container{
+            opacity: 0.6;
+
+        }
+
+        .content{
+            display: flex;
+            width: 66%;
+            background-color: black;
+            margin-right: auto;
+            margin-left: auto;
+            height: 78vh;
+        }
+
+        .sidebar {
+            width: 33%;
+            height: 78vh;
+            /* background-color: rgb(67, 73, 95); */
+            background-color: black;
+            float: left;
+        }
+        .main{
+            display: block;
+            width: 66%;
+            height: 98vh;
+            float: right;
+            
+            
+        }
+        .imground {
+            border-radius: 50%;
+            display: block;
+            
+        }
+        .imgwrapper {
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar {
+            display: flex;
+            width: 100%;
+            height: 10%;
+            /* background-color: aqua; */
+            align-items: center;
+            margin-top: 0;
+        }
+
+        li {
+            display: inline-block;
+            padding-inline: 10px;
+        }
+        .bottom {
+            display: block;
+            width: 100%;
+            height: 5%;
+            background-color: black;
+            /* vertical-align: middle; */
+            text-align: center;
+
+        } 
+        .btn {
+                background-color: black; 
+                color: white;
+                padding: 5px 20px;
+                text-align: center;
+                font-size: 14px;
+                text-decoration: none;
+                cursor: pointer;
+                border: 1px solid white;
+                border-radius: 20px;
+                font-family: DejaVu Sans Mono, monospace;
+                margin: 10px 10px;
+                }   
+        .btn a {
+            text-decoration: none;
+        }
+        .myspan{
+            padding-left: 10px;
+            display: block;
+        }
+
+
+    </style>
+
+    </head>
+
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="sidebar">
+                <div class="imgwrapper">
+                    <img class="imground" src="https://drive.google.com/uc?export=view&id=1atNAmJqHYTmsztoh2EfGpk_VHOED90mt" alt="" style="width:60%;height: 70%;">
+                </div>
+                <div style="padding-left: 10%;">
+                    <h3 style="margin-bottom: 0;margin-top: 0;">Computer Engineer</h3>
+                    <h1 style="margin-top: 0;"><i>Hi, I'm Cris</i></h1>
+                </div>
+                <div>
+
+                </div>
+                
+            </div>
+            <div class="main">
+                <div class="navbar">
+                   <h1>Portfolio</h1>
+                </div>
+                <div style="height: 56%; background-color: black;display: block;margin: 3%;">
+                            <span class="myspan"><b>FULLNAME: </b> Cris Vincent G. Ferrer</span>
+                            <span class="myspan"><b>DEGREE: </b> BS Computer Engineering</span>
+                            <span class="myspan"><b>BORN: </b> November 16, 1994</span>
+                            <br>
+                            <span class="myspan"><b>EXPERIENCE: </b> 3 years Windows Application Developer</span>
+                            <span class="myspan"><b>PROJECTS: </b> Biometrics, Queuing System, Inventory</span>
+                            <span class="myspan"><b>PROGRAMMING LANGUAGE: </b> CSharp</span>
+                </div>
+
+                <div class="bottom">
+                    <button class="btn"><a href="https://www.facebook.com/chris.tui.184" target="_blank" rel="noopener noreferrer">Facebook</a></button>
+                    <button class="btn"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">Gmail</a></button>
+                    <button class="btn"><a href="https://github.com/cvin-f" target="_blank" rel="noopener noreferrer">Github</a></button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
+
